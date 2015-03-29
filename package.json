@@ -6,7 +6,7 @@
     "jstransformer"
   ],
   "dependencies": {
-    "handlebars": "^2.0.0"
+    "handlebars": "^3.0.1"
   },
   "scripts": {
     "test": "node test"
