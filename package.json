@@ -17,5 +17,8 @@
     "url": "https://github.com/jstransformers/jstransformer-handlebars.git"
   },
   "author": "Hemanth.HM <hemanth.hm@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "assertit": "^0.1.0"
+  }
 }
