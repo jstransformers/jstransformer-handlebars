@@ -6,8 +6,8 @@
     "jstransformer"
   ],
   "dependencies": {
-    "bluebird": "^2.9.24",
-    "handlebars": "^3.0.1"
+    "bluebird": "~2.9.24",
+    "handlebars": "~3.0.1"
   },
   "scripts": {
     "test": "node test"
@@ -19,6 +19,7 @@
   "author": "Hemanth.HM <hemanth.hm@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "assertit": "^0.1.0"
+    "assertit": "^0.1.0",
+    "jstransformer": "~0.0.0"
   }
 }
