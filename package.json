@@ -6,6 +6,7 @@
     "jstransformer"
   ],
   "dependencies": {
+    "bluebird": "^2.9.24",
     "handlebars": "^3.0.1"
   },
   "scripts": {
