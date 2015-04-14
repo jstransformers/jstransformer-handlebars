@@ -1,10 +1,10 @@
 'use strict';
 
-var fs = require('fs');
 var path = require('path');
 var Handlebars = require('handlebars');
 
 exports.name = 'handlebars';
+exports.inputFormats = ['hbs', 'handlebars', 'html'];
 exports.outputFormat = 'html';
 
 exports.compile = function _compile(str, options) {
