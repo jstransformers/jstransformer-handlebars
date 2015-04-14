@@ -47,7 +47,7 @@ Released under the [`MIT`][license-url] license.
 [coveralls-url]: https://coveralls.io/r/jstransformers/jstransformer-handlebars?branch=master
 [coveralls-img]: https://img.shields.io/coveralls/jstransformers/jstransformer-handlebars.svg?style=flat
 
-[license-url]: https://github.com/jstransformers/jstransformer-handlebars/blob/master/LICENSE
+[license-url]: https://github.com/jstransformers/jstransformer-handlebars/blob/master/LICENSE.md
 [license-img]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 
 [travis-url]: https://travis-ci.org/jstransformers/jstransformer-handlebars
