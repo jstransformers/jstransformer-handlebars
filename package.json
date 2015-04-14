@@ -21,6 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "assertit": "^0.1.0",
+    "istanbul-harmony": "~0.3.1",
     "jstransformer": "~0.0.0"
   }
 }
