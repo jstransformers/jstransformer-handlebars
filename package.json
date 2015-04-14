@@ -6,11 +6,12 @@
     "jstransformer"
   ],
   "dependencies": {
-    "bluebird": "~2.9.24",
     "handlebars": "~3.0.1"
   },
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "test-cov": "istanbul cover test",
+    "test-travis": "istanbul cover test --report lcovonly"
   },
   "repository": {
     "type": "git",
