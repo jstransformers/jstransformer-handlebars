@@ -6,15 +6,22 @@
     "jstransformer"
   ],
   "dependencies": {
-    "handlebars": "^3.0.1"
+    "handlebars": "~3.0.1"
   },
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "test-cov": "istanbul cover test",
+    "test-travis": "istanbul cover test --report lcovonly"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-handlebars.git"
   },
   "author": "Hemanth.HM <hemanth.hm@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "istanbul-harmony": "~0.3.1",
+    "jstransformer": "~0.0.0"
+  }
 }
