@@ -1,15 +1,24 @@
 {
   "name": "jstransformer-handlebars",
-  "version": "0.0.2",
-  "description": "Transform handlebars template into HTML.",
+  "version": "0.1.0",
+  "description": "Handlebars support for JSTransformers.",
   "keywords": [
-    "jstransformer"
+    "jstransformer",
+    "handlebars"
+  ],
+  "files": [
+    "index.js"
   ],
   "dependencies": {
     "handlebars": "^3.0.1"
   },
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "testit": "^2.0.2"
+  },
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "coverage": "istanbul cover test"
   },
   "repository": {
     "type": "git",

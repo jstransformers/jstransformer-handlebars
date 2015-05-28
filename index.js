@@ -14,4 +14,4 @@ exports.compile = function (str, options) {
     Handlebars.registerHelper(helper, options.helpers[helper]);
   }
   return Handlebars.compile(str, options);
-}
+};
