@@ -3,6 +3,7 @@
 var Handlebars = require('handlebars');
 
 exports.name = 'handlebars';
+exports.inputFormats = ['hbs', 'handlebars'];
 exports.outputFormat = 'html';
 
 exports.compile = function (str, options) {
