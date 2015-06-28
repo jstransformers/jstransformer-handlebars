@@ -1,1 +1,5 @@
-{}
+{
+  "partials": {
+    "link": "<a href='/people/{{id}}'>{{name}}</a>"
+  }
+}
