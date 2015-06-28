@@ -1,0 +1,13 @@
+{
+  "name": "jstransformer-handlebars",
+  "people": [
+    {
+      "name": "Alan",
+      "id": 1
+    },
+    {
+      "name": "Yehuda",
+      "id": 2
+    }
+  ]
+}
