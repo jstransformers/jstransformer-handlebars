@@ -10,7 +10,7 @@
     "index.js"
   ],
   "dependencies": {
-    "handlebars": "^3.0.1"
+    "handlebars": "^4.0.1"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"

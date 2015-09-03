@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0: 2015-09-03
+
+- Updated to Handlebars 4
+
 ## v0.1.0: 2015-05-28
 
 - Update to the latest Boilerplate
