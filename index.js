@@ -5,6 +5,7 @@ var Handlebars = require('handlebars');
 exports.name = 'handlebars';
 exports.inputFormats = ['hbs', 'handlebars'];
 exports.outputFormat = 'html';
+exports.handlebars = Handlebars;
 
 exports.compile = function (str, options) {
   options = options || {};
