@@ -13,11 +13,16 @@
     "handlebars": "^4.0.1"
   },
   "devDependencies": {
-    "test-jstransformer": "^1.0.0"
+    "test-jstransformer": "^1.0.0",
+    "xo": "^0.17.1"
   },
   "scripts": {
+    "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage"
+    "posttest": "xo --space --no-semicolon index.js"
+  },
+  "engines": {
+    "node": ">=4"
   },
   "repository": {
     "type": "git",

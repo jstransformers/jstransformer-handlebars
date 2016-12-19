@@ -3,7 +3,7 @@
 [Handlebars.js](http://handlebarsjs.com/) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-handlebars/master.svg)](https://travis-ci.org/jstransformers/jstransformer-handlebars)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-handlebars/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-handlebars?branch=master)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-handlebars/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-handlebars)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-handlebars/master.svg)](http://david-dm.org/jstransformers/jstransformer-handlebars)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-handlebars.svg)](https://www.npmjs.org/package/jstransformer-handlebars)
 
@@ -14,7 +14,7 @@
 ## API
 
 ```js
-var handlebars = require('jstransformer')(require('jstransformer-handlebars'))
+var handlebars = require('jstransformer')(require('jstransformer-handlebars'));
 
 var locals = {
   name: "World"
