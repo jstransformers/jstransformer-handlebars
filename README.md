@@ -1,7 +1,5 @@
 # jstransformer-handlebars
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-handlebars.svg)](https://greenkeeper.io/)
-
 [Handlebars.js](http://handlebarsjs.com/) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-handlebars/master.svg)](https://travis-ci.org/jstransformers/jstransformer-handlebars)
