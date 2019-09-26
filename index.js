@@ -14,15 +14,18 @@ exports.compile = function (str, options) {
       Handlebars.registerPartial(partial, options.partials[partial])
     }
   }
+
   for (const helper in options.helpers || {}) {
     if ({}.hasOwnProperty.call(options.helpers, helper)) {
       Handlebars.registerHelper(helper, options.helpers[helper])
     }
   }
+
   for (const decorator in options.decorators || {}) {
     if ({}.hasOwnProperty.call(options.decorators, decorator)) {
       Handlebars.registerDecorator(decorator, options.decorator[decorator])
     }
   }
+
   return Handlebars.compile(str, options)
 }
