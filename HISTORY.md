@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.0: 2021-12-16
+
+- Updated to Handlebars 4.7.7
+- Documented render options in readme
+
 ## v1.1.0: 2018-01-28
 
 - Updated Boilerplate

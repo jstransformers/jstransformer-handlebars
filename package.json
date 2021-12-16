@@ -10,11 +10,11 @@
     "index.js"
   ],
   "dependencies": {
-    "handlebars": "^4.0.1"
+    "handlebars": "^4.7.7"
   },
   "devDependencies": {
-    "test-jstransformer": "^1.0.0",
-    "xo": "*"
+    "test-jstransformer": "^1.1.0",
+    "xo": "^0.25.4"
   },
   "scripts": {
     "test": "test-jstransformer",
