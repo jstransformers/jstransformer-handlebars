@@ -24,6 +24,8 @@ handlebars.render('<h1>Hello {{name}}!</h1>', {}, locals).body
 //=> '<h1>Hello World!</h1>'
 ```
 
+In addition to the standard [Handlebars compile options](https://handlebarsjs.com/api-reference/compilation.html#handlebars-compile-template-options), the render method can be passed objects for `partials`, `helpers` and `decorators` (deprecated).
+
 ## License
 
 MIT
