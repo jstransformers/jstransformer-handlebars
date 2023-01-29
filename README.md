@@ -2,9 +2,8 @@
 
 [Handlebars.js](http://handlebarsjs.com/) support for [JSTransformers](http://github.com/jstransformers).
 
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-handlebars/master.svg)](https://travis-ci.org/jstransformers/jstransformer-handlebars)
+[![Build Status][ci-badge]][ci-url]
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-handlebars/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-handlebars)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-handlebars/master.svg)](http://david-dm.org/jstransformers/jstransformer-handlebars)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-handlebars.svg)](https://www.npmjs.org/package/jstransformer-handlebars)
 
 ## Installation
@@ -29,3 +28,6 @@ In addition to the standard [Handlebars compile options](https://handlebarsjs.co
 ## License
 
 MIT
+
+[ci-badge]: https://github.com/jstransformers/jstransformer-handlebars/actions/workflows/test.yml/badge.svg
+[ci-url]: https://github.com/jstransformers/jstransformer-handlebars/actions/workflows/test.yml
