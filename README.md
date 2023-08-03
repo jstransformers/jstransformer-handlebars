@@ -4,7 +4,7 @@
 
 [![Build Status][ci-badge]][ci-url]
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-handlebars/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-handlebars)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-handlebars.svg)](https://www.npmjs.org/package/jstransformer-handlebars)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-handlebars?cacheSeconds=600000)](https://www.npmjs.org/package/jstransformer-handlebars)
 
 ## Installation
 
