@@ -12,19 +12,19 @@ const transformer = {
 transformer.compile = function (source, options) {
   options = options || {}
   for (const partial in options.partials || {}) {
-    if (Object.prototype.hasOwnProperty.call(options.partials, partial)) {
+    if (Object.hasOwn(options.partials, partial)) {
       Handlebars.registerPartial(partial, options.partials[partial])
     }
   }
 
   for (const helper in options.helpers || {}) {
-    if (Object.prototype.hasOwnProperty.call(options.helpers, helper)) {
+    if (Object.hasOwn(options.helpers, helper)) {
       Handlebars.registerHelper(helper, options.helpers[helper])
     }
   }
 
   for (const decorator in options.decorators || {}) {
-    if (Object.prototype.hasOwnProperty.call(options.decorators, decorator)) {
+    if (Object.hasOwn(options.decorators, decorator)) {
       Handlebars.registerDecorator(decorator, options.decorator[decorator])
     }
   }

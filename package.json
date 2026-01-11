@@ -14,14 +14,14 @@
   },
   "devDependencies": {
     "test-jstransformer": "^1.1.0",
-    "xo": "^0.53.1"
+    "xo": "^0.60.0"
   },
   "scripts": {
     "test": "test-jstransformer",
     "lint": "xo --space=2 --no-semicolon index.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,8 @@
   "license": "MIT",
   "xo": {
     "rules": {
-      "unicorn/prefer-module": 0
+      "unicorn/prefer-module": 0,
+      "logical-assignment-operators": 0
     }
   }
 }
